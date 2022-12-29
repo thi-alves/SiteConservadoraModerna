@@ -1,5 +1,5 @@
 import React from 'react'
-import { welcome } from '../assets'
+import { us_01, us_02, us_03, us_04 } from '../assets'
 
 const Solution = () => {
     return (
@@ -8,10 +8,10 @@ const Solution = () => {
                 <div className='container mx-auto py-10'>
                     <div className="grid md:grid-cols-2 gap-x-8 gap-y-4">
                         <div className="flex flex-1 flex-wrap gap-4 justify-center items-center">
-                        <img src={welcome} alt="" className='max-w-[46%]' />
-                        <img src={welcome} alt="" className='max-w-[46%]'/>
-                        <img src={welcome} alt="" className='max-w-[46%]'/>
-                        <img src={welcome} alt="" className='max-w-[46%]'/>
+                        <img src={us_01} alt="" className='max-w-[46%] rounded-2xl shadow-sm' />
+                        <img src={us_02} alt="" className='max-w-[46%] rounded-2xl shadow-sm'/>
+                        <img src={us_03} alt="" className='max-w-[46%] rounded-2xl shadow-sm'/>
+                        <img src={us_04} alt="" className='max-w-[46%] rounded-2xl shadow-sm'/>
                         </div>
                         <div className="flex flex-col justify-center">
                             <h4 className='h4 text-secondary'>—— Sobre nós</h4>

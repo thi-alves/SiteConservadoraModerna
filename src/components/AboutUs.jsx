@@ -1,13 +1,14 @@
 import React from 'react'
-import { welcome } from '../assets'
+import { welcome_02,welcome_03 } from '../assets'
 
 const AboutUs = () => {
   return (
     <section id='services'>
       <div className="container mx-auto py-10">
-        <div className="flex flex-col md:flex-row gap-4">
-          <div className="w-full">
-            <img src={welcome} alt="" className='max-w-[100%]' />
+        <div className="grid grid-cols-2 gap-4">
+          <div className="relative">
+            <img src={welcome_02} alt="" className='max-w-[55%] rounded-2xl shadow-box z-[3] float-left -rotate-6' />
+            <img src={welcome_03} alt="" className='max-w-[55%] rounded-2xl shadow-box z-[4] float-right -mt-[250px] rotate-3' />
           </div>
           <div className="w-full">
             <div className="flex flex-col items-end text-end mb-8">

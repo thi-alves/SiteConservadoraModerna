@@ -1,6 +1,6 @@
 import React from 'react'
 import { MdOutlineLocationSearching } from 'react-icons/md'
-
+import {BsWhatsapp,BsInstagram, BsGoogle, BsFacebook} from 'react-icons/bs';
 const Footer = () => {
     return (
         <section id='location'>
@@ -9,13 +9,13 @@ const Footer = () => {
                     <div className="flex flex-1 flex-wrap p-4 justify-between">
                         <div className="1">
                             <div className="">
-                                <h4 className='h4 mb-4'>Moderna</h4>
+                                <h4 className='h4 mb-2'>Moderna</h4>
                                 <p className=' max-w-[380px]'>Com a redução/eliminação de gastos referentes a processos trabalhistas, substituição de funcionários e coberturas de férias, a terceirização ainda promove melhor planejamento aos condomínios e empresas.</p>
                             </div>
                         </div>
                         <div className="2">
                             <div className="">
-                                <h4 className='h4 mb-4'>Navigations</h4>
+                                <h4 className='h4 mb-2'>Navegação</h4>
                                 <ul>
                                     <li>Inicio</li>
                                     <li>Sobre</li>
@@ -26,7 +26,7 @@ const Footer = () => {
                         </div>
                         <div className="3">
                             <div className="">
-                                <h4 className='h4 mb-4'>Navigations</h4>
+                                <h4 className='h4 mb-2'>Utilitários</h4>
                                 <ul>
                                     <li>Orçamento</li>
                                     <li>Localização</li>
@@ -37,12 +37,20 @@ const Footer = () => {
                         </div>
                         <div className="4">
                             <div className="">
-                                <h4 className='h4 mb-4'>Redes Sociais</h4>
+                                <h4 className='h4 mb-2'>Redes Sociais</h4>
                                 <ul>
-                                    <li>Google</li>
-                                    <li>Instagram</li>
-                                    <li>Facebook</li>
-                                    <li>Whatsapp</li>
+                                    <li>Whatsapp
+                                        <BsWhatsapp className='inline ml-2'/>
+                                    </li>   
+                                    <li>Google
+                                        <BsGoogle className='inline ml-2'/>
+                                    </li>
+                                    <li>Instagram
+                                        <BsInstagram className='inline ml-2'/>
+                                    </li>
+                                    <li>Facebook
+                                        <BsFacebook className='inline ml-2'/>
+                                    </li>
                                 </ul>
                             </div>
                         </div>

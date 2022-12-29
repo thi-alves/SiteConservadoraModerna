@@ -57,7 +57,7 @@ const Hero = () => {
         </div>
         <div className="flex justify-center items-center">
           <div className="w-full md:max-w-[70%] lg:max-w-[80%] min-h-40 bg-white rounded-2xl md:-mt-[50px] shadow-box">
-            <div className="flex flex-col md:flex-row justify-around p-4 w-full h-full">
+            <div className="flex flex-col md:flex-row justify-around p-4 w-full h-full gap-y-2">
 
               <div className="flex gap-x-4 items-center">
                 <div className="self-start bg-secondary rounded-xl p-3">

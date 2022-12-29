@@ -19,7 +19,7 @@ const Services = () => {
                             </div> */}
                             </div>
                             <h4 className='h4 text-center'>Limpeza Interna</h4>
-                            <p className='p text-left'>Limpeza de área interna consiste na organização e remoção dos sujos das áreas fechadas de um condominio ex: Elevador, Recepção, Escadas e etc..</p>
+                            <p className='p text-left'>Limpeza de área interna consiste na organização e limpeza áreas fechadas de um condominio ex: Elevador, Recepção, Escadas e etc..</p>
                         </div>
                         <div className="border-b-8 border-primary  p-4 ">
                             <div className="flex justify-center items-center">
@@ -37,7 +37,7 @@ const Services = () => {
                             </div> */}
                             </div>
                             <h4 className='h4 text-center'>Jateação Pisos e Paredes</h4>
-                            <p className='p text-justify'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet id placeat quod.it ullam quisquam nisi labore voluptate libero saepe earum maxime</p>
+                            <p className='p text-left'>Em áreas externas é recomendado a lavagem com lavadora de alta pressão com jato leque e detergente alcalino, que remove a sujeira com mais...</p>
                         </div>
                         <div className="border-b-8 border-primary  p-4 ">
                             <div className="flex justify-center items-center">
@@ -46,7 +46,7 @@ const Services = () => {
                             </div> */}
                             </div>
                             <h4 className='h4 text-center'>Higienização Resérvatorios</h4>
-                            <p className='p text-justify'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet id placeat quod.it ullam quisquam nisi labore voluptate libero saepe earum maxime</p>
+                            <p className='p text-left'>A limpeza é essencial e deve ser feita a cada seis meses. Por profissional especializado e com produtos certificados pela ANVISA.</p>
                         </div>
                         <div className="border-b-8 border-primary  p-4 ">
                             <div className="flex justify-center items-center">
@@ -55,7 +55,7 @@ const Services = () => {
                             </div> */}
                             </div>
                             <h4 className='h4 text-center'>Higienização Esgoto</h4>
-                            <p className='p text-justify'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet id placeat quod.it ullam quisquam nisi labore voluptate libero saepe earum maxime</p>
+                            <p className='p text-left'>A limpeza do esgoto é manutenção obrigatoria dos condomínios. Nossos técnicos atuam com os devidos cuidados para que a operação ocorra de forma segura e ágil.</p>
                         </div>
                         <div className="border-b-8 border-primary  p-4 ">
                             <div className="flex justify-center items-center">
@@ -64,7 +64,7 @@ const Services = () => {
                             </div> */}
                             </div>
                             <h4 className='h4 text-center'>Jardinagem</h4>
-                            <p className='p text-justify'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet id placeat quod.it ullam quisquam nisi labore voluptate libero saepe earum maxime</p>
+                            <p className='p text-left'>Os jardins são áreas importantes para o convívio e valorização do patrimônio. Através do paisagismo conseguimos criar ambientes bonitos e agradáveis que impactam a todos.</p>
                         </div>
                        
                     </div>
