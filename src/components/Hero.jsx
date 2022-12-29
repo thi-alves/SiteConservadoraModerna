@@ -1,11 +1,13 @@
 import React from 'react'
-import { MdCleaningServices, MdOutlineReceiptLong, MdOutlineStar, MdSmartDisplay,MdOutlineContacts,MdAccessTime } from "react-icons/md"
+import { MdOutlineLens, MdCleaningServices, MdOutlineReceiptLong, MdOutlineStar, MdSmartDisplay,MdOutlineContacts,MdAccessTime } from "react-icons/md"
 import { user, welcome } from '../assets'
 import { FcGoogle } from 'react-icons/fc'
 
 const Hero = () => {
   return (
-    <section id='hero'>
+    <section id='hero' className='relative'>
+      <MdOutlineLens className='absolute text-[40rem] text-primary/5 left-0 top-0 -z-[0]'/>
+      <MdOutlineLens className='absolute text-[40rem] text-primary/5 right-0 bottom-0 -z-[0] hidden md:block'/>
       <div className='container mx-auto'>
         <div className="flex flex-col-reverse md:flex-row content-center gap-4 md:h-screen">
           <div className="flex flex-col items-start justify-center max-w-[568px]">

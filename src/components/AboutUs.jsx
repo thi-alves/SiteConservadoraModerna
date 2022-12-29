@@ -5,10 +5,10 @@ const AboutUs = () => {
   return (
     <section id='services'>
       <div className="container mx-auto py-10">
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid md:grid-cols-2 gap-4">
           <div className="relative">
-            <img src={welcome_02} alt="" className='max-w-[55%] rounded-2xl shadow-box z-[3] float-left -rotate-6' />
-            <img src={welcome_03} alt="" className='max-w-[55%] rounded-2xl shadow-box z-[4] float-right -mt-[250px] rotate-3' />
+            <img src={welcome_02} alt="" className='max-w-[55%] rounded-2xl shadow-box z-[3] float-left -rotate-6 ml-2' />
+            <img src={welcome_03} alt="" className='max-w-[55%] rounded-2xl shadow-box z-[4] float-right -mt-[250px] rotate-3 mr-1' />
           </div>
           <div className="w-full">
             <div className="flex flex-col items-end text-end mb-8">

@@ -55,19 +55,19 @@ const Contact = () => {
 
                                     <div className="flex flex-col gap-2 items-center justify-center">
                                         <label className='flex-none p'>Nome Completo:</label>
-                                        <input className='rounded-md w-full p-2'></input>
+                                        <input className='rounded-md w-full p-2' placeholder='Insira seu nome'></input>
                                     </div>
                                     <div className="flex flex-col gap-2 items-center justify-center">
                                         <label className='flex-none p'>Telefone:</label>
-                                        <input className='rounded-md w-full p-2'></input>
+                                        <input className='rounded-md w-full p-2' placeholder='Insira seu telefone'></input>
                                     </div>
                                     <div className="flex flex-col gap-2 items-center justify-center">
                                         <label className='flex-none p'>E-mail:</label>
-                                        <input className='rounded-md w-full p-2'></input>
+                                        <input className='rounded-md w-full p-2' placeholder='Insira seu e-mail'></input>
                                     </div>
                                     <div className="flex flex-col gap-2 items-center justify-center">
                                         <label className='flex-none p'>Mensagem:</label>
-                                        <textarea rows="4" className='rounded-md w-full p-2'></textarea>
+                                        <textarea rows="4" className='rounded-md w-full p-2' placeholder='Digite sua mensagem...'></textarea>
                                     </div>
                                     <div className="flex p-4 bg-secondary rounded-2xl text-black justify-center items-center gap-x-2">
                                         <button className='h4'>
