@@ -5,9 +5,9 @@ const Solution = () => {
     return (
         <section id='solution'>
             <div className="bg-white">
-                <div className='container mx-auto py-10'>
+                <div className='container mx-auto py-20 !pl-0'>
                     <div className="grid md:grid-cols-2 gap-x-8 gap-y-4">
-                        <div className="flex flex-1 flex-wrap gap-4 justify-center items-center">
+                        <div className="flex flex-1 flex-wrap gap-4 justify-center items-center ">
                         <img src={us_01} alt="" className='max-w-[46%] rounded-2xl shadow-sm' />
                         <img src={us_02} alt="" className='max-w-[46%] rounded-2xl shadow-sm'/>
                         <img src={us_03} alt="" className='max-w-[46%] rounded-2xl shadow-sm'/>
