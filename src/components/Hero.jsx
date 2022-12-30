@@ -12,7 +12,7 @@ const Hero = () => {
         whileInView={{ y: 0 }}
         viewport={{ once: false, amount: 0.5 }}
         transition={{ type: "spring", stiffness: 10 }}
-        className="absolute left-0 top-0 -z-0"
+        className="absolute left-0 top-0 -z-0 hidden md:block"
       >
         <MdOutlineLens className='text-[40rem] text-primary/5' />
       </motion.div>
@@ -79,7 +79,7 @@ const Hero = () => {
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1, scale:1.05 }}
-          viewport={{ once: true, amount: 0.5 }}
+          viewport={{ once: false, amount: 0.5 }}
           transition={{
             duration: 1,
              delay: 0.3,
