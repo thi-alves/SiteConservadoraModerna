@@ -1,7 +1,8 @@
 import React from 'react'
 import { MdPermPhoneMsg, MdEmail, MdLocationOn, MdForwardToInbox, MdPersonPin } from 'react-icons/md'
 import { RiWhatsappFill } from 'react-icons/ri'
-
+import { motion } from 'framer-motion'
+import { fadeIn } from '../constants/animate'
 const Contact = () => {
     return (
         <section id='contact'>
@@ -11,12 +12,12 @@ const Contact = () => {
                         <div className="flex flex-col gap-4">
                             <div className="grid md:grid-cols-2 mb-4 md:mb-12 gap-4">
                                 <div className="flex flex-col justify-between">
-                                    <div className="flex flex-col justify-center">
+                                    <motion.div variants={fadeIn("down")} initial="initial" whileInView="whileInView" className="flex flex-col justify-center">
                                         <h4 className='h4 text-secondary'>—— Contate nós</h4>
                                         <h2 className='h2 mb-4'> Fale conosco</h2>
                                         <p className='p text-left'>Disponibilizamos o fale conosco para o esclarecimento de duvidas, registro de sugestoes e demais demandas.<br/>
                                             Aqui nós amamos o que fazemos, e acreditamos que pessoas felizes entregam resultados incríveis, venha fazer parte dessa família.</p>
-                                    </div>
+                                    </motion.div>
                                     <div className="flex flex-col justify-between">
                                         <div className="flex items-end gap-4 border-b border-gray/30 mb-2 pb-2">
                                             <MdPermPhoneMsg className='text-[2.5rem] text-gray' />

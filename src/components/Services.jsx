@@ -1,16 +1,18 @@
 import React from 'react'
-import { InternalCleaning } from '../assets/services'
+import { motion } from 'framer-motion'
+import { fadeIn } from '../constants/animate'
+
 
 const Services = () => {
     return (
         <section id='services'>
             <div className="bg-white">
                 <div className="container mx-auto py-10">
-                    <div className="flex flex-col justify-center items-center mb-8">
+                    <motion.div variants={fadeIn("down")} initial="initial" whileInView="whileInView" className="flex flex-col justify-center items-center mb-8">
                         <h4 className='h4 text-secondary'>—— Nossos serviços</h4>
                         <h2 className='h2'>Podemos te ajudar?</h2>
                         <p className='p text-black text-center max-w-[768px]'>Conheça um pouco mais dos serviços oferecidos por nossa equipe de facilites.</p>
-                    </div>
+                    </motion.div>
                     <div className="grid md:grid-cols-3 justify-items-center gap-8">
                         <div className="border-b-8 border-primary  p-4 ">
                             <div className="flex justify-center items-center">

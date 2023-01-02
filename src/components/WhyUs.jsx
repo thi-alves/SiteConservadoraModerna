@@ -1,18 +1,21 @@
 import React from 'react'
 import { MdLanguage, MdOutlineStars, MdMyLocation } from "react-icons/md"
 import Itau from '../assets/partners/Itau'
+import { motion } from "framer-motion";
+import { fadeIn } from '../constants/animate';
+
 
 const WhyUs = () => {
   return (
     <section id='about'>
       <div className="bg-white">
         <div className="container mx-auto py-10">
-          <div className="header-section">
+          <motion.div variants={fadeIn("down")} initial="initial" whileInView="whileInView" className="header-section">
             <h4 className='h4 text-secondary'>—— Sobre nós</h4>
             <h2 className='h2'>Porquê nos escolher?</h2>
             <p className='p text-black  max-w-[480px]'>O propósito do nosso negócio é conquistar clientes que conquistam clientes. Profissionais altamente qualificados, motivados e treinados a entregar o seu melhor.</p>
-          </div>
-          <div className="grid md:grid-cols-3 w-full h-max gap-8 mt-8 mb-14">
+          </motion.div>
+          <motion.div  className="grid md:grid-cols-3 w-full h-max gap-8 mt-8 mb-14">
             <div className="bg-primary/90 text-white p-3 rounded-2xl duration-300 transition-colors">
               <div className="flex flex-col justify-center items-center">
                 <div className="w-max p-2 mb-2">
@@ -46,7 +49,7 @@ const WhyUs = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </motion.div>
           <div className="flex flex-col justify-center items-center">
             <h4 className='h4'>Nossos parceiros</h4>
             <p className='p'>Através do zelo e transparência, firmamos parcerias duradouras e sólidas.</p>

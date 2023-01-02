@@ -1,10 +1,13 @@
-import { useScroll, motion } from "framer-motion";
+import { motion} from "framer-motion";
 import { MdOutlineLens, MdCleaningServices, MdOutlineReceiptLong, MdOutlineStar, MdSmartDisplay, MdOutlineContacts, MdAccessTime } from "react-icons/md"
 import { user, welcome } from '../assets'
 import { FcGoogle } from 'react-icons/fc'
+import { fadeIn } from "../constants/animate";
+
 
 
 const Hero = () => {
+
   return (
     <section id='hero' className='relative'>
       <motion.div
@@ -76,17 +79,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1, scale:1.05 }}
-          viewport={{ once: false, amount: 0.5 }}
-          transition={{
-            duration: 1,
-             delay: 0.3,
-            ease: [0.5, 0.71, 1, 1.5],
-        }}
-        className="flex justify-center items-center"
-        >
+        <motion.div variants={fadeIn("up")} initial="initial" whileInView="whileInView" className="flex justify-center items-center">
         <div className="w-full md:max-w-[70%] lg:max-w-[80%] min-h-40 bg-white rounded-2xl md:-mt-[50px] shadow-box">
           <div className="flex flex-col md:flex-row justify-around p-4 w-full h-full gap-y-2">
 

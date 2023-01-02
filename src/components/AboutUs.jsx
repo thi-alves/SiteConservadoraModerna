@@ -1,5 +1,8 @@
 import React from 'react'
 import { welcome_02,welcome_03 } from '../assets'
+import { motion } from 'framer-motion'
+import { fadeIn } from '../constants/animate'
+
 
 const AboutUs = () => {
   return (
@@ -11,11 +14,13 @@ const AboutUs = () => {
             <img src={welcome_03} alt="" className='max-w-[55%] rounded-2xl shadow-box z-[4] float-right -mt-[250px] rotate-3 mr-1' />
           </div>
           <div className="w-full">
-            <div className="flex flex-col items-end text-end mb-8">
+            <motion.div variants={fadeIn("down")} initial="initial" whileInView="whileInView" className="flex flex-col items-end text-end">
               <h4 className='h4 text-secondary'>—— Sobre nós</h4>
               <h2 className='h2'>Quem somos?</h2>
               <p className='p max-w-[480px] mb-8'>Somos a conservadora Moderna, nós temos mais de 15 Anos de experiência Nacional e Internacional.</p>
-              <p className='p max-w-[480px]'> A conservadora Moderna preza pela satisfação de seus clientes trabalhando com eficiência e agilidade em cada atendimento. Dispomos de mão de obra especializada e treinada para limpezas em geral, conservação e higienização, atuando sempre com as técnicas mais modernas. Estamos preparados para atender comércios, empresas, instituições bancárias e condomínios. Entre em contato agora mesmo conosco e solicite um orçamento personalizado, estamos à disposição. Nossa sede está localizada em Contagem.</p>
+            </motion.div>
+            <div className="flex flex-col items-end text-end mb-8">
+            <p className='p max-w-[480px]'> A conservadora Moderna preza pela satisfação de seus clientes trabalhando com eficiência e agilidade em cada atendimento. Dispomos de mão de obra especializada e treinada para limpezas em geral, conservação e higienização, atuando sempre com as técnicas mais modernas. Estamos preparados para atender comércios, empresas, instituições bancárias e condomínios. Entre em contato agora mesmo conosco e solicite um orçamento personalizado, estamos à disposição. Nossa sede está localizada em Contagem.</p>
             </div>
             <div className="flex justify-end">
               <button className='flex  items-center justify-center font-semibold shadow-box px-12 py-4 bg-primary   text-white rounded-md'>

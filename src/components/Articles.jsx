@@ -1,19 +1,20 @@
 import React from 'react'
 import { article,article_01, article_03 } from '../assets'
-
+import { motion } from 'framer-motion'
+import { fadeIn } from '../constants/animate'
 const Articles = () => {
   return (
     <section id='articles'>
       <div className="bg-white">
         <div className="container mx-auto py-10">
 
-          <div className="box">
+          <motion.div variants={fadeIn("down")} initial="initial" whileInView="whileInView" className="box">
             <div className="flex flex-col justify-center items-center mb-8">
               <h4 className='h4 text-secondary'>—— Artigos e Postagens</h4>
               <h2 className='h2'>Novidades e Blog's</h2>
               <p className='p text-black text-center max-w-[768px]'>Novidades e todas as matérias especiais do Moderna você confere nesta seção. Novos equipamentos, novos métodos tudo em primeira mão.</p>
             </div>
-          </div>
+          </motion.div>
 
           <div className="box md:mb-12">
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">

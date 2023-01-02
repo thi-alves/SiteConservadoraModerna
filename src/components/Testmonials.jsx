@@ -1,7 +1,8 @@
 import React from 'react'
 import { MdOutlineFormatQuote, MdStarRate,MdOutlineStarHalf,MdOutlineStarBorder } from 'react-icons/md'
 import { user } from '../assets'
-
+import { motion } from 'framer-motion'
+import { fadeIn } from '../constants/animate'
 const Testmonials = () => {
     return (
         <section id='testmonials'>
@@ -10,11 +11,11 @@ const Testmonials = () => {
                 <MdOutlineFormatQuote className='absolute z-[-0] left-0 m-8 bottom-0 text-[10rem] text-primary/20 hidden md:block'/>
                 <div className="container mx-auto py-10">
                     <div className="flex justify-center text-center mb-12">
-                        <div className="flex flex-col items-center">
+                        <motion.div variants={fadeIn("down")} initial="initial" whileInView="whileInView" className="flex flex-col items-center">
                             <h4 className='h4 text-secondary'>—— Depoimentos</h4>
                             <h2 className='h2'>Veja o que nossos clientes tem a dizer sobre nós!</h2>
                             <p className='p text-black  max-w-[768px] mb-8'>Nossa empresa é reflexo dos resultados que colhem cada um de nossos clientes.</p>
-                        </div>
+                        </motion.div>
                     </div>
                     <div className="flex flex-col md:flex-row gap-4">
                         <div className="bg-white rounded-2xl shadow-box p-4 max-w-max relative space-y-2">
